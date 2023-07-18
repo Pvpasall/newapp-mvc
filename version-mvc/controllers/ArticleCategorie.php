@@ -1,7 +1,7 @@
 <?php
-require_once '../models/Database.php';
-require_once '../models/Article.php';
-require_once '../models/Categorie.php';
+require_once __DIR__ . '/../models/Database.php';
+require_once __DIR__ . '/../models/Article.php';
+require_once __DIR__ . '/../models/Categorie.php';
 
 class ArticleCategorieController
 {
