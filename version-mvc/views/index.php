@@ -9,10 +9,10 @@ $articles = $articleCategorieController->getArticles();
 <html>
 <head>
     <title>My News App</title>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
 </head>
 <body>
-    <h1>Sama news page</h1>
+    <h1><img src="../public/img/logo-news-app.png" alt="News App Logo"> Sama news page</h1>
 
     <?php include_once("../views/partials/header.php"); ?>
 
